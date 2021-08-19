@@ -21,3 +21,8 @@ button {
   background-color: #dc3545;
   border: 1px solid #751d26;
 }
+
+.reset {
+  background-color: #383838;
+  border: 1px solid #222222;
+}

@@ -2,4 +2,22 @@ body {
   background-color: #181818;
   text-align: center;
   color: #f1f1f1;
+  font-family: 'Poppins';
+}
+
+button {
+  padding: 10px 30px;
+  margin: 10px;
+  border-radius: 15px;
+  font-size: 20px;
+}
+
+.yes {
+  background-color: #28a745;;
+  border: 1px solid #1b6e2e;
+}
+
+.no {
+  background-color: #dc3545;
+  border: 1px solid #751d26;
 }

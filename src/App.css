@@ -38,16 +38,19 @@ section video {
   max-height: 300px;
   max-width: 80%;
   animation-name: imgg;
-  animation-duration: 2s;
+  animation-duration: 3s;
   animation-iteration-count: infinite;
   margin-top: 50px;
+  animation-timing-function: linear;
 }
 
 @keyframes imgg {
   0% {transform: rotate(0deg)}
+  12.5% {transform: rotate(0deg)}
   25% {transform: rotate(6deg)}
   50% {transform: rotate(0deg)}
   75% {transform: rotate(-6deg)}
+  87.5% {transform: rotate(0deg)}
   100% {transform: rotate(-0deg)}
 }
 

@@ -22,7 +22,7 @@ function App() {
   }
 
   function badDay() {
-    setgoodDay("Oh no, here have a hug")
+    setgoodDay("Oh no, here have a hug <3")
     setcurrentImg(hug);
     setImg(true);
   }

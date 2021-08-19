@@ -28,21 +28,26 @@ function App() {
   }
 
   return (
-    <div>
-      <h2>Are you having a good day?</h2>
-      <button className="yes" onClick={goodDayy}>Yes</button>
-      <button className="no" onClick={badDay}>No</button>
-      {goodDay === undefined ? 
-      <></> :
-      <button className="reset" onClick={Reset}>Reset</button>
-      }
-      <h3>{goodDay}</h3>
-      {img ? 
-        <div>
-          <video src={currentImg} alt="hug Video" type="video/mp4" autoPlay loop />
-        </div> 
-        : <> </>}
-    </div>
+    <>
+      <section>
+        <h2>Are you having a good day?</h2>
+        <button className="yes" onClick={goodDayy}>Yes</button>
+        <button className="no" onClick={badDay}>No</button>
+        {goodDay === undefined ? 
+        <></> :
+        <button className="reset" onClick={Reset}>Reset</button>
+        }
+        <h3>{goodDay}</h3>
+        {img ? 
+          <div>
+            <video src={currentImg} alt="hug Video" type="video/mp4" autoPlay loop />
+          </div> 
+          : <> </>}
+      </section>
+      <footer>
+        <p>This website was created because i was bored :)</p>
+      </footer>
+    </>
   );
 }
 
